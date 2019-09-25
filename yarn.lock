@@ -40,9 +40,42 @@
     redis "^2.8.0"
     redis-parser "^3.0.0"
 
-"@nebulario/microservice-blog-graph@link:../microservice-blog-graph":
-  version "0.0.0"
-  uid ""
+"@nebulario/microservice-blog-graph@1.70.6-blog-home-prod":
+  version "1.70.6-blog-home-prod"
+  resolved "https://registry.yarnpkg.com/@nebulario/microservice-blog-graph/-/microservice-blog-graph-1.70.6-blog-home-prod.tgz#14548eace2650a21ff4d0e23ba6810180f9ab8ab"
+  integrity sha512-3dapIw+TwuWQReaXsOPygXn60e0PUwuTYK+xol+i/teYrl//F8aoMh56EZpkVgruzO+J2Irae+drlIceL2xJDQ==
+  dependencies:
+    "@babel/runtime" "^7.6.0"
+    "@babel/runtime-corejs3" "^7.6.0"
+    "@nebulario/microservice-auth-common" "1.70.1-master"
+    "@nebulario/microservice-graph-common" "1.70.0-master"
+    "@nebulario/microservice-utils" "1.70.0-master"
+    dotenv "^7.0.0"
+    express "^4.16.4"
+    express-graphql "^0.7.1"
+    graphql "^14.2.0"
+    graphql-iso-date "^3.6.1"
+    graphql-request "^1.8.2"
+    graphql-tools "^4.0.4"
+    graphql-tools-types "^1.2.1"
+    mongoose "^5.6.12"
+
+"@nebulario/microservice-graph-common@1.70.0-master":
+  version "1.70.0-master"
+  resolved "https://registry.yarnpkg.com/@nebulario/microservice-graph-common/-/microservice-graph-common-1.70.0-master.tgz#f9cb0c4405f2a85dacc5c2bfd6ae3dc55caed00b"
+  integrity sha512-JcGvOFvgEszbgoUP9OjKWxLQN/IEOK9/GiifYEPF+JyEN/YQEnPhcFS9eujFqT2TFR+xyb4lPpOG8iauArM7Mw==
+  dependencies:
+    "@babel/runtime" "^7.6.0"
+    "@babel/runtime-corejs3" "^7.6.0"
+    "@nebulario/microservice-utils" "1.70.0-master"
+
+"@nebulario/microservice-utils@1.70.0-master":
+  version "1.70.0-master"
+  resolved "https://registry.yarnpkg.com/@nebulario/microservice-utils/-/microservice-utils-1.70.0-master.tgz#0a477aea686f3779d8fb85deb2cb785520ee966f"
+  integrity sha512-Qm1E2iMtabHiCuEDlbgxpG5s2ujTnUJvvMRu4lf4nH/Ut/JCVwsdMJ1VVz3d/4zgT8QFkDKFnlxkF1h8pFakSA==
+  dependencies:
+    "@babel/runtime" "^7.6.0"
+    "@babel/runtime-corejs3" "^7.6.0"
 
 "@wry/equality@^0.1.2":
   version "0.1.9"
