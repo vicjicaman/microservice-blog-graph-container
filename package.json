@@ -3,6 +3,6 @@
   "description": "",
   "license": "MIT",
   "dependencies": {
-    "@nebulario/microservice-blog-graph": "1.70.5-blog-home-prod"
+    "@nebulario/microservice-blog-graph": "1.70.6-blog-home-prod"
   }
 }
