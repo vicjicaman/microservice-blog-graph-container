@@ -40,15 +40,15 @@
     redis "^2.8.0"
     redis-parser "^3.0.0"
 
-"@nebulario/microservice-blog-graph@1.70.0-master":
-  version "1.70.0-master"
-  resolved "https://registry.yarnpkg.com/@nebulario/microservice-blog-graph/-/microservice-blog-graph-1.70.0-master.tgz#2fef5cb8d04cacf220a3c968df7ed7b5ef9ddb26"
-  integrity sha512-i5rtqTUqAP3SA190j4mF1OsITFLKppRoprtXA7QzBPngqUjQzPaEgU6Mvl8NkQ12pht82OwBonem7sAcaDFI/Q==
+"@nebulario/microservice-blog-graph@1.70.1-master":
+  version "1.70.1-master"
+  resolved "https://registry.yarnpkg.com/@nebulario/microservice-blog-graph/-/microservice-blog-graph-1.70.1-master.tgz#b794e542e6b492d98f1592c2fc5b78ae03d5cff9"
+  integrity sha512-P3gbzbj4c+ZZjEfkpunH8ujbLblrzXoY4JECDPvAk+BvzW3hdyemmlzNdQUIbrKUHZ+BaE7g6vTusK0m+YWcZA==
   dependencies:
     "@babel/runtime" "^7.6.0"
     "@babel/runtime-corejs3" "^7.6.0"
     "@nebulario/microservice-auth-common" "1.70.1-master"
-    "@nebulario/microservice-graph-common" "1.70.0-master"
+    "@nebulario/microservice-graph-common" "1.70.1-master"
     "@nebulario/microservice-utils" "1.70.0-master"
     dotenv "^7.0.0"
     express "^4.16.4"
@@ -60,10 +60,10 @@
     graphql-tools-types "^1.2.1"
     mongoose "^5.6.12"
 
-"@nebulario/microservice-graph-common@1.70.0-master":
-  version "1.70.0-master"
-  resolved "https://registry.yarnpkg.com/@nebulario/microservice-graph-common/-/microservice-graph-common-1.70.0-master.tgz#f9cb0c4405f2a85dacc5c2bfd6ae3dc55caed00b"
-  integrity sha512-JcGvOFvgEszbgoUP9OjKWxLQN/IEOK9/GiifYEPF+JyEN/YQEnPhcFS9eujFqT2TFR+xyb4lPpOG8iauArM7Mw==
+"@nebulario/microservice-graph-common@1.70.1-master":
+  version "1.70.1-master"
+  resolved "https://registry.yarnpkg.com/@nebulario/microservice-graph-common/-/microservice-graph-common-1.70.1-master.tgz#cd59f25810328bb3a3ac6077b27c9f1afba6b869"
+  integrity sha512-M0bSb6OQDGe+WRRrB+7vQHZ1xqXERQPOsAoQER0vSoC+/i3N4N9S22nR0qeLiIJdTyHoiN9g6nQWRgGmA5YIUQ==
   dependencies:
     "@babel/runtime" "^7.6.0"
     "@babel/runtime-corejs3" "^7.6.0"
