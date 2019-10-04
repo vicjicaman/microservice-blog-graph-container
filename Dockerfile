@@ -13,4 +13,4 @@ RUN echo "CACHE $CACHEBUST"
 COPY --chown=node:node ./node_modules /env/app/node_modules
 
 ENTRYPOINT ["node"]
-CMD ["/app/node_modules/@nebulario/microservice-blog-graph/dist/index.js"]
+CMD ["/env/app/node_modules/@nebulario/microservice-blog-graph/dist/index.js"]
