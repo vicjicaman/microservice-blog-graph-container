@@ -5,7 +5,7 @@ RUN chown -R node /app
 
 USER node
 
-WORKDIR /app/node_modules/@nebulario/microservice-blog-graph
+WORKDIR /env/app
 
 ARG CACHEBUST=1
 RUN echo "CACHE $CACHEBUST"
@@ -13,4 +13,4 @@ RUN echo "CACHE $CACHEBUST"
 COPY --chown=node:node ./node_modules /app/node_modules
 
 ENTRYPOINT ["node"]
-CMD ["dist/index.js"]
+CMD ["/app/node_modules/@nebulario/microservice-blog-graph/dist/index.js"]
