@@ -3,6 +3,6 @@
   "description": "",
   "license": "MIT",
   "dependencies": {
-    "@nebulario/microservice-blog-graph": "link:./../microservice-blog-graph"
+    "@nebulario/microservice-blog-graph": "1.70.0-data-reconnect-realm-prod"
   }
 }
