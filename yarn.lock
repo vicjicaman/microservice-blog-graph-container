@@ -40,10 +40,10 @@
     redis "^2.8.0"
     redis-parser "^3.0.0"
 
-"@nebulario/microservice-blog-graph@1.70.0-config-upgrade-prod":
-  version "1.70.0-config-upgrade-prod"
-  resolved "https://registry.yarnpkg.com/@nebulario/microservice-blog-graph/-/microservice-blog-graph-1.70.0-config-upgrade-prod.tgz#f0720359beacb92f3b30952d1f434c1ead8ea1d7"
-  integrity sha512-M/L0EtCEVnBVNIAz8tA5V8GN7YXUafATVMHbKa1RYqEzor4y9SEHcyL7gzfGlIMk+sqXv/zFfNIw+d76znhBmg==
+"@nebulario/microservice-blog-graph@1.70.2-master":
+  version "1.70.2-master"
+  resolved "https://registry.yarnpkg.com/@nebulario/microservice-blog-graph/-/microservice-blog-graph-1.70.2-master.tgz#58e73229017c58d1f19c26e638a6013d7d32e9b5"
+  integrity sha512-NaylA+He1Sd252gxScbmC1dr7n4u8lzroyjOaP0dfVdeL2RX4L0LP8NdRpxnlI+yrBmKuENY2gEeVR6PiyAsLg==
   dependencies:
     "@babel/runtime" "^7.6.0"
     "@babel/runtime-corejs3" "^7.6.0"
