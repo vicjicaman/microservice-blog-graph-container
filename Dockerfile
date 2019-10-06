@@ -1,7 +1,10 @@
 FROM node:8.13.0-alpine
 
-RUN mkdir -p /app
-RUN chown -R node /app
+ENV APP_ROOT=/env/app
+ENV APP_HOME=${APP_ROOT}/node_modules/@nebulario/microservice-blog-graph
+
+RUN mkdir -p ${APP_HOME}
+RUN chown -R node ${APP_HOME}
 
 USER node
 
@@ -12,5 +15,6 @@ RUN echo "CACHE $CACHEBUST"
 
 COPY --chown=node:node ./node_modules /env/app/node_modules
 
+WORKDIR ${APP_HOME}
 ENTRYPOINT ["node"]
-CMD ["/env/app/node_modules/@nebulario/microservice-blog-graph/dist/index.js"]
+CMD ["dist/index.js"]
