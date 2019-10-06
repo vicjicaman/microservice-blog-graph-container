@@ -3,6 +3,6 @@
   "description": "",
   "license": "MIT",
   "dependencies": {
-    "@nebulario/microservice-blog-graph": "1.70.0-config-upgrade-prod"
+    "@nebulario/microservice-blog-graph": "1.70.2-master"
   }
 }
