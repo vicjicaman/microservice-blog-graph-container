@@ -40,16 +40,16 @@
     redis "^2.8.0"
     redis-parser "^3.0.0"
 
-"@nebulario/microservice-blog-graph@1.70.0-email-validation-prod":
-  version "1.70.0-email-validation-prod"
-  resolved "https://registry.yarnpkg.com/@nebulario/microservice-blog-graph/-/microservice-blog-graph-1.70.0-email-validation-prod.tgz#4f9f2259facaa84e8a2ab7ef0842553f4f3b59e6"
-  integrity sha512-9UY0ypMlJCJAQZSl5VzLdSiLJ3cig4y2gyUm+Jt3yd0gAwKWdY/DseLSeYoqltsG2xCNfGaHb680M+t9Yjh3Ew==
+"@nebulario/microservice-blog-graph@1.70.4-master":
+  version "1.70.4-master"
+  resolved "https://registry.yarnpkg.com/@nebulario/microservice-blog-graph/-/microservice-blog-graph-1.70.4-master.tgz#146eb81c3e5acae2169d0e188cceae5a19ced708"
+  integrity sha512-Zzg3vc+8ZRj8RqdXqqNCJRs1ZsXEEFJxMP4nOQ3UPwfn5RzMXVwpZmEAPuFlwR1UJaTz2mXTfyOmIr84D/RcBg==
   dependencies:
     "@babel/runtime" "^7.6.0"
     "@babel/runtime-corejs3" "^7.6.0"
     "@nebulario/microservice-auth-common" "1.70.1-master"
     "@nebulario/microservice-graph-common" "1.70.3-master"
-    "@nebulario/microservice-logger" "1.70.0-email-validation-prod"
+    "@nebulario/microservice-logger" "1.70.1-master"
     "@nebulario/microservice-utils" "1.70.0-master"
     amqplib "^0.5.5"
     async-redis "^1.1.7"
@@ -75,10 +75,10 @@
     async-redis "^1.1.7"
     uuid "^3.3.3"
 
-"@nebulario/microservice-logger@1.70.0-email-validation-prod":
-  version "1.70.0-email-validation-prod"
-  resolved "https://registry.yarnpkg.com/@nebulario/microservice-logger/-/microservice-logger-1.70.0-email-validation-prod.tgz#178feb837942396e087d69952e528416db2b5e94"
-  integrity sha512-n4b/Dg/oC5C3tNeXIMm6DULkYld3IYfLj5q4t+otWHjYPXOKLTHvs+7ILPJ4v2WtVF/jdv9aKdks/+jqHql3Yw==
+"@nebulario/microservice-logger@1.70.1-master":
+  version "1.70.1-master"
+  resolved "https://registry.yarnpkg.com/@nebulario/microservice-logger/-/microservice-logger-1.70.1-master.tgz#c56c0124d8138aa663da201fb29f6a0391fdf64c"
+  integrity sha512-Fih2Ei97NRAj8TMbWBkE9eVjbZp2hpJGvBWA3ePDuztpTCSrK0UAADvt0SsVxUTmmmN/ho+v9hxP65Ja8nwqxA==
   dependencies:
     "@babel/runtime" "^7.6.0"
     "@babel/runtime-corejs3" "^7.6.0"
