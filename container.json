@@ -1,9 +1,9 @@
 {
   "name": "repoflow/microservice-blog-graph-container",
-  "version": "1.70.0-auth-common-update-prod",
+  "version": "1.70.6-master",
   "source": {
     "type": "npm",
     "fullname": "@nebulario/microservice-blog-graph",
-    "version": "1.70.0-auth-common-update-prod"
+    "version": "1.70.5-master"
   }
 }
